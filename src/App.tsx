@@ -1,9 +1,15 @@
 import React from "react";
 import "./App.css";
-import RoutesComponent from "./routes";
+import Navbar from "./Components/NavBar";
+import ContentSection from "./Components/Content";
+
 
 // Define RoutesComponent
 
 export default function App() {
-  return <RoutesComponent />;
+  return <>
+  
+  <Navbar />
+    {/* <ContentSection /> */}
+  </>;
 }

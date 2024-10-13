@@ -1,0 +1,77 @@
+/* Main world map section container */
+.world-map-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Stats section */
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+  
+  /* Stat item styling */
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-item h2 {
+    font-size: 3rem;
+    color: #0057B7; /* Blue for the numbers */
+  }
+  
+  .stat-item p {
+    font-size: 1.2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  /* Colored dots */
+  .blue-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #0057B7; /* Blue */
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .green-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #8BC34A; /* Green */
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .orange-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #FFA500; /* Orange */
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .brown-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #A52A2A; /* Brown */
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  /* Map section */
+  .map-container {
+    text-align: center;
+  }
+  
+  .world-map {
+    width: 80%; /* Adjust to match the size you want */
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  

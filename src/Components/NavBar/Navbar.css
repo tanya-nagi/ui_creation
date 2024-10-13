@@ -1,0 +1,55 @@
+/* General styles for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f0f1f1;
+    border-bottom: 2px solid #dcdcdc;
+  }
+  
+  /* Logo styles */
+  .navbar-logo img {
+    height: 40px; /* Adjust the logo height if needed */
+  }
+  
+  /* Menu items styles */
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-menu li {
+    padding: 0 10px;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: #0057B7; /* Adjust to match the color in the image */
+    font-weight: 500;
+  }
+  
+  .navbar-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact button */
+  .navbar-contact {
+    margin-right: 10px;
+  }
+  
+  .contact-btn {
+    padding: 8px 15px;
+    background-color: #0057B7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .contact-btn:hover {
+    background-color: #0046a5; /* Slightly darker for hover effect */
+  }
+  

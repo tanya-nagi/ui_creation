@@ -1,0 +1,56 @@
+/* Container for the entire section */
+.content-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  /* Breadcrumb navigation */
+  .breadcrumb {
+    font-size: 14px;
+    color: #0057B7; /* Blue color for links */
+    margin-bottom: 10px;
+  }
+  
+  .breadcrumb a {
+    text-decoration: none;
+    color: #0057B7;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main heading styles */
+  .main-content h1 {
+    font-size: 2.5rem;
+    color: #0057B7;
+    margin: 20px 0;
+  }
+  
+  .main-content .highlight {
+    font-weight: bold;
+    color: #0057B7; /* Blue color for the bold text */
+  }
+  
+  /* Subtitle styles */
+  .subtitle {
+    color: #666666;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Image container */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    width: 80%; /* Adjust this to make the image responsive */
+    max-width: 1000px; /* Limit the max size */
+    border-radius: 15px; /* Rounded corners for the image */
+    object-fit: cover;
+  }
+  

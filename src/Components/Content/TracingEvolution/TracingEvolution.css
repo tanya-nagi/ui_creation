@@ -1,0 +1,87 @@
+/* Container for the whole section */
+.tracing-evolution-section {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr; /* Left column larger than right */
+    gap: 50px;
+    padding: 50px;
+    background-color: #0057B7; /* Blue background */
+    color: white;
+    background-image: url('ll.svg'); /* Use the correct path to the background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Left column for title and subtitle */
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left-column h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+  
+  .left-column .highlight {
+    font-weight: bold;
+  }
+  
+  .left-column .subtitle {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  /* Right column for milestones */
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5); /* Vertical line */
+  }
+  
+  .right-column .description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .milestones h3 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .milestone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .milestone .year {
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .milestone .separator {
+    margin-right: 15px;
+  }
+  
+  .milestone .event {
+    flex: 1;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .tracing-evolution-section {
+      grid-template-columns: 1fr; /* Stack the columns vertically */
+      padding: 30px;
+    }
+  
+    .right-column {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 30px;
+    }
+  }
+  

@@ -1,0 +1,43 @@
+.split-section {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr; /* Adjust the width of left and right columns */
+  gap: 50px; /* Space between the columns */
+  padding: 80px 100px;
+  background-color: #ffffff;
+}
+
+/* Left Column: Title and Subtitle */
+.left-column {
+  text-align: left;
+}
+
+.left-column h1 {
+  font-size: 4rem;
+  color: #0057B7;
+  line-height: 1.3;
+  font-weight: 600;
+  margin: 0;
+}
+
+.left-column .highlight {
+  font-weight: bold;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: #0057B7;
+  font-weight: 400;
+}
+
+/* Right Column: Paragraphs */
+.right-column {
+  text-align: left;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.right-column p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
